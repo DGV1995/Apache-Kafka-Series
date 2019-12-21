@@ -1,7 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="ed1541b1-4d26-42bf-8411-f235f4398355" name="Default Changelist" comment="" />
+    <list default="true" id="ed1541b1-4d26-42bf-8411-f235f4398355" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -17,6 +20,9 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
   <component name="MavenImportPreferences">
     <option name="importingSettings">
       <MavenImportingSettings>
@@ -28,6 +34,9 @@
     <option name="version" value="1" />
   </component>
   <component name="ProjectId" id="1VD4gywQV0dehwzimtRA9x487GE" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="1" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showExcludedFiles" value="true" />
@@ -38,13 +47,53 @@
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.0" />
+    <property name="restartRequiresConfirmation" value="false" />
   </component>
   <component name="RecentsManager">
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="com.diegogv95.kafka.tutorial1" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.ProducerDemoWithCallback">
+  <component name="RunManager" selected="Application.ConsumerDemoAssignSeek">
+    <configuration name="ConsumerDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.diegogv95.kafka.tutorial1.ConsumerDemo" />
+      <module name="kafka-beginners-course" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.diegogv95.kafka.tutorial1.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ConsumerDemoAssignSeek" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.diegogv95.kafka.tutorial1.ConsumerDemoAssignSeek" />
+      <module name="kafka-beginners-course" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.diegogv95.kafka.tutorial1.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ConsumerDemoWithThread" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.diegogv95.kafka.tutorial1.ConsumerDemoWithThread" />
+      <module name="kafka-beginners-course" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.diegogv95.kafka.tutorial1.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="ProducerDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.diegogv95.kafka.tutorial1.ProducerDemo" />
       <module name="kafka-beginners-course" />
@@ -58,8 +107,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ProducerDemoWithCallback" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.diegogv95.kafka.tutorial1.ProducerDemoWithCallback" />
+    <configuration name="ProducerDemoWithKeys" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.diegogv95.kafka.tutorial1.ProducerDemoWithKeys" />
       <module name="kafka-beginners-course" />
       <extension name="coverage">
         <pattern>
@@ -73,7 +122,10 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.ProducerDemoWithCallback" />
+        <item itemvalue="Application.ConsumerDemoAssignSeek" />
+        <item itemvalue="Application.ConsumerDemoWithThread" />
+        <item itemvalue="Application.ConsumerDemo" />
+        <item itemvalue="Application.ProducerDemoWithKeys" />
         <item itemvalue="Application.ProducerDemo" />
       </list>
     </recent_temporary>
@@ -108,21 +160,21 @@
       <screen x="67" y="27" width="1853" height="1053" />
     </state>
     <state x="588" y="214" width="800" height="677" key="#Project_Structure/67.27.1853.1053@67.27.1853.1053" timestamp="1576774703343" />
-    <state width="1807" height="269" key="GridCell.Tab.0.bottom" timestamp="1576778149591">
+    <state width="1807" height="269" key="GridCell.Tab.0.bottom" timestamp="1576937630185">
       <screen x="67" y="27" width="1853" height="1053" />
     </state>
-    <state width="1807" height="269" key="GridCell.Tab.0.bottom/67.27.1853.1053@67.27.1853.1053" timestamp="1576778149591" />
-    <state width="1807" height="269" key="GridCell.Tab.0.center" timestamp="1576778149591">
+    <state width="1807" height="269" key="GridCell.Tab.0.bottom/67.27.1853.1053@67.27.1853.1053" timestamp="1576937630185" />
+    <state width="1807" height="269" key="GridCell.Tab.0.center" timestamp="1576937630185">
       <screen x="67" y="27" width="1853" height="1053" />
     </state>
-    <state width="1807" height="269" key="GridCell.Tab.0.center/67.27.1853.1053@67.27.1853.1053" timestamp="1576778149591" />
-    <state width="1807" height="269" key="GridCell.Tab.0.left" timestamp="1576778149590">
+    <state width="1807" height="269" key="GridCell.Tab.0.center/67.27.1853.1053@67.27.1853.1053" timestamp="1576937630185" />
+    <state width="1807" height="269" key="GridCell.Tab.0.left" timestamp="1576937630184">
       <screen x="67" y="27" width="1853" height="1053" />
     </state>
-    <state width="1807" height="269" key="GridCell.Tab.0.left/67.27.1853.1053@67.27.1853.1053" timestamp="1576778149590" />
-    <state width="1807" height="269" key="GridCell.Tab.0.right" timestamp="1576778149591">
+    <state width="1807" height="269" key="GridCell.Tab.0.left/67.27.1853.1053@67.27.1853.1053" timestamp="1576937630184" />
+    <state width="1807" height="269" key="GridCell.Tab.0.right" timestamp="1576937630185">
       <screen x="67" y="27" width="1853" height="1053" />
     </state>
-    <state width="1807" height="269" key="GridCell.Tab.0.right/67.27.1853.1053@67.27.1853.1053" timestamp="1576778149591" />
+    <state width="1807" height="269" key="GridCell.Tab.0.right/67.27.1853.1053@67.27.1853.1053" timestamp="1576937630185" />
   </component>
 </project>
