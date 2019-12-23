@@ -31,10 +31,6 @@ public class TwitterProducer {
     // Terms that we want to get tweets from
     private List<String> terms = Lists.newArrayList("kafka", "bitcoin", "Real Madrid", "The Witcher");
 
-    // Kafka Producer settings
-    private final String BOOTSTRAP_SERVERS = "localhost:9092";
-    private final String TOPIC = "twitter_tweets";
-
     private Logger logger = LoggerFactory.getLogger(TwitterProducer.class);
 
     public TwitterProducer() {}
@@ -82,7 +78,7 @@ public class TwitterProducer {
 
             if (msg != null) {
                 logger.info("Message received: " + msg);
-                producer.send(new ProducerRecord<>(TOPIC, null, msg), new Callback() {
+                producer.send(new ProducerRecord<>("twitter_tweets", null, msg), new Callback() {
                     @Override
                     public void onCompletion(RecordMetadata recordMetadata, Exception e) {
                         if (e != null)
@@ -133,7 +129,7 @@ public class TwitterProducer {
     public KafkaProducer<String, String> createKafkaProducer() {
         // Create Producer properties
         Properties properties = new Properties();
-        properties.setProperty(ProducerConfig.BOOTSTRAP_SERVERS_CONFIG, BOOTSTRAP_SERVERS);
+        properties.setProperty(ProducerConfig.BOOTSTRAP_SERVERS_CONFIG, "localhost:9092");
         properties.setProperty(ProducerConfig.KEY_SERIALIZER_CLASS_CONFIG, StringSerializer.class.getName());
         properties.setProperty(ProducerConfig.VALUE_SERIALIZER_CLASS_CONFIG, StringSerializer.class.getName());
 
