@@ -2,8 +2,35 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ed1541b1-4d26-42bf-8411-f235f4398355" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/target/classes/META-INF/kafka-beginners-course.kotlin_module" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/diegogv95/kafka/tutorial1/ProducerDemoWithCallback$1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/diegogv95/kafka/tutorial1/ProducerDemoWithCallback.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/diegogv95/kafka/tutorial1/ProducerDemoWithKeys$1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/diegogv95/kafka/tutorial1/ProducerDemoWithKeys.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/codeStyles/Project.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dbnavigator.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/diegogv95/kafka/tutorial1/consumer/ConsumerDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/diegogv95/kafka/tutorial1/ConsumerDemo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/diegogv95/kafka/tutorial1/consumer/ConsumerDemoAssignSeek.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/diegogv95/kafka/tutorial1/ConsumerDemoAssignSeek.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/diegogv95/kafka/tutorial1/consumer/ConsumerDemoWithGroups.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/diegogv95/kafka/tutorial1/ConsumerDemoWithGroups.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/diegogv95/kafka/tutorial1/consumer/ConsumerDemoWithThread.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/diegogv95/kafka/tutorial1/ConsumerDemoWithThread.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/diegogv95/kafka/tutorial1/producer/ProducerDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/diegogv95/kafka/tutorial1/ProducerDemo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/diegogv95/kafka/tutorial1/producer/ProducerDemoWithCallback.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/diegogv95/kafka/tutorial1/ProducerDemoWithCallback.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/diegogv95/kafka/tutorial1/producer/ProducerDemoWithKeys.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/diegogv95/kafka/tutorial1/ProducerDemoWithKeys.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/diegogv95/kafka/tutorial2/TwitterProducer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/diegogv95/kafka/tutorial2/TwitterProducer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/diegogv95/kafka/tutorial1/consumer/ConsumerDemo.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/diegogv95/kafka/tutorial1/ConsumerDemo.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/diegogv95/kafka/tutorial1/consumer/ConsumerDemoAssignSeek.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/diegogv95/kafka/tutorial1/ConsumerDemoAssignSeek.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/diegogv95/kafka/tutorial1/consumer/ConsumerDemoWithGroups.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/diegogv95/kafka/tutorial1/ConsumerDemoWithGroups.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/diegogv95/kafka/tutorial1/consumer/ConsumerDemoWithThread$ConsumerRunnable.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/diegogv95/kafka/tutorial1/ConsumerDemoWithThread$ConsumerRunnable.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/diegogv95/kafka/tutorial1/consumer/ConsumerDemoWithThread.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/diegogv95/kafka/tutorial1/ConsumerDemoWithThread.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/diegogv95/kafka/tutorial1/producer/ProducerDemo.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/diegogv95/kafka/tutorial1/ProducerDemo.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/diegogv95/kafka/tutorial1/producer/ProducerDemoWithCallback$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/diegogv95/kafka/tutorial1/producer/ProducerDemoWithCallback.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/diegogv95/kafka/tutorial1/producer/ProducerDemoWithKeys$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/diegogv95/kafka/tutorial1/producer/ProducerDemoWithKeys.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/diegogv95/kafka/tutorial2/TwitterProducer$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/diegogv95/kafka/tutorial2/TwitterProducer$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/diegogv95/kafka/tutorial2/TwitterProducer.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/diegogv95/kafka/tutorial2/TwitterProducer.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -163,18 +190,26 @@
     <state width="1807" height="269" key="GridCell.Tab.0.bottom" timestamp="1576937630185">
       <screen x="67" y="27" width="1853" height="1053" />
     </state>
+    <state x="746" y="391" width="544" height="237" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes/67.27.1853.957@67.27.1853.957" timestamp="1577095428087" />
+    <state width="1807" height="203" key="GridCell.Tab.0.bottom" timestamp="1577106451374">
+      <screen x="67" y="27" width="1853" height="957" />
+    </state>
     <state width="1807" height="269" key="GridCell.Tab.0.bottom/67.27.1853.1053@67.27.1853.1053" timestamp="1576937630185" />
-    <state width="1807" height="269" key="GridCell.Tab.0.center" timestamp="1576937630185">
-      <screen x="67" y="27" width="1853" height="1053" />
+    <state width="1807" height="203" key="GridCell.Tab.0.bottom/67.27.1853.957@67.27.1853.957" timestamp="1577106451374" />
+    <state width="1807" height="203" key="GridCell.Tab.0.center" timestamp="1577106451373">
+      <screen x="67" y="27" width="1853" height="957" />
     </state>
     <state width="1807" height="269" key="GridCell.Tab.0.center/67.27.1853.1053@67.27.1853.1053" timestamp="1576937630185" />
-    <state width="1807" height="269" key="GridCell.Tab.0.left" timestamp="1576937630184">
-      <screen x="67" y="27" width="1853" height="1053" />
+    <state width="1807" height="203" key="GridCell.Tab.0.center/67.27.1853.957@67.27.1853.957" timestamp="1577106451373" />
+    <state width="1807" height="203" key="GridCell.Tab.0.left" timestamp="1577106451373">
+      <screen x="67" y="27" width="1853" height="957" />
     </state>
     <state width="1807" height="269" key="GridCell.Tab.0.left/67.27.1853.1053@67.27.1853.1053" timestamp="1576937630184" />
-    <state width="1807" height="269" key="GridCell.Tab.0.right" timestamp="1576937630185">
-      <screen x="67" y="27" width="1853" height="1053" />
+    <state width="1807" height="203" key="GridCell.Tab.0.left/67.27.1853.957@67.27.1853.957" timestamp="1577106451373" />
+    <state width="1807" height="203" key="GridCell.Tab.0.right" timestamp="1577106451374">
+      <screen x="67" y="27" width="1853" height="957" />
     </state>
     <state width="1807" height="269" key="GridCell.Tab.0.right/67.27.1853.1053@67.27.1853.1053" timestamp="1576937630185" />
+    <state width="1807" height="203" key="GridCell.Tab.0.right/67.27.1853.957@67.27.1853.957" timestamp="1577106451374" />
   </component>
 </project>
