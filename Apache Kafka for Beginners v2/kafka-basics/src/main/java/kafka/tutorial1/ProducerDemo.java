@@ -1,4 +1,4 @@
-package com.diegogv95.kafka.tutorial1;
+package kafka.tutorial1;
 
 import org.apache.kafka.clients.producer.KafkaProducer;
 import org.apache.kafka.clients.producer.ProducerConfig;

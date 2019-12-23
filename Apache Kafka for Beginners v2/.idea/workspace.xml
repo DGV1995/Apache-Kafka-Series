@@ -2,9 +2,17 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ed1541b1-4d26-42bf-8411-f235f4398355" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/codeStyles/Project.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/codeStyles/Project.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/diegogv95/kafka/tutorial2/TwitterProducer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/diegogv95/kafka/tutorial2/TwitterProducer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/diegogv95/kafka/tutorial1/ConsumerDemo.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/diegogv95/kafka/tutorial1/ConsumerDemoAssignSeek.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/diegogv95/kafka/tutorial1/ConsumerDemoWithGroups.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/diegogv95/kafka/tutorial1/ConsumerDemoWithThread.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/diegogv95/kafka/tutorial1/ProducerDemo.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/diegogv95/kafka/tutorial1/ProducerDemoWithCallback.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/diegogv95/kafka/tutorial1/ProducerDemoWithKeys.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/diegogv95/kafka/tutorial2/TwitterProducer.java" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -45,6 +53,7 @@
   </component>
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/kafka-producer-twitter/src/main/java" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.0" />
@@ -53,6 +62,10 @@
   <component name="RecentsManager">
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="com.diegogv95.kafka.tutorial1" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/kafka-producer-twitter/src/main/java" />
+      <recent name="$PROJECT_DIR$/kafka-basics/src/main/java" />
     </key>
   </component>
   <component name="RunManager" selected="Application.ConsumerDemoAssignSeek">
@@ -161,9 +174,6 @@
       <screen x="67" y="27" width="1853" height="1053" />
     </state>
     <state x="588" y="214" width="800" height="677" key="#Project_Structure/67.27.1853.1053@67.27.1853.1053" timestamp="1576774703343" />
-    <state width="1807" height="269" key="GridCell.Tab.0.bottom" timestamp="1576937630185">
-      <screen x="67" y="27" width="1853" height="1053" />
-    </state>
     <state x="746" y="391" width="544" height="237" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes/67.27.1853.957@67.27.1853.957" timestamp="1577095428087" />
     <state width="1807" height="203" key="GridCell.Tab.0.bottom" timestamp="1577106451374">
       <screen x="67" y="27" width="1853" height="957" />
@@ -185,5 +195,9 @@
     </state>
     <state width="1807" height="269" key="GridCell.Tab.0.right/67.27.1853.1053@67.27.1853.1053" timestamp="1576937630185" />
     <state width="1807" height="203" key="GridCell.Tab.0.right/67.27.1853.957@67.27.1853.957" timestamp="1577106451374" />
+    <state x="302" y="250" width="1372" height="605" key="new project wizard" timestamp="1577123548519">
+      <screen x="67" y="27" width="1853" height="1053" />
+    </state>
+    <state x="302" y="250" width="1372" height="605" key="new project wizard/67.27.1853.1053@67.27.1853.1053" timestamp="1577123548519" />
   </component>
 </project>
