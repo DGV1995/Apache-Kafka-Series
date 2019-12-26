@@ -9,6 +9,7 @@
         <module name="kafka-producer-twitter" />
         <module name="Apache Kafka for Beginners v2" />
         <module name="kafka-basics" />
+        <module name="kafka-consumer-elasticsearch" />
       </profile>
     </annotationProcessing>
   </component>
