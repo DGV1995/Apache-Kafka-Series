@@ -52,7 +52,6 @@ public class WordCountApp {
     public static Topology createTopology() {
         // Create the builder
         StreamsBuilder builder = new StreamsBuilder();
-
         // 1-Stream from kafka
         KStream<String, String> inputStream = builder.stream("word-count-input");
         // 2-Map values to lowercase
