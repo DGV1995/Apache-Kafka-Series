@@ -10,6 +10,7 @@ import org.apache.kafka.streams.kstream.KStream;
 import org.apache.kafka.streams.kstream.KTable;
 import org.apache.kafka.streams.kstream.Produced;
 
+import java.util.Arrays;
 import java.util.Properties;
 
 public class FavoriteColorApp {
@@ -48,6 +49,7 @@ public class FavoriteColorApp {
         KStream<String, String> input = builder.stream("colors");
         KTable<String, Long> output = input
                 .mapValues(value -> value.toLowerCase())
+                .filter((key, value) -> Arrays.asList("blue", "green", "red").contains(value))
                 .selectKey((key, value) -> value)
                 .groupByKey()
                 .count();
