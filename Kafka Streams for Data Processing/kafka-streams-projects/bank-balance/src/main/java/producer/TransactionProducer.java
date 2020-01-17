@@ -70,6 +70,6 @@ public class TransactionProducer {
         transaction.put("amount", amount);
         transaction.put("time", time.toString());
 
-        return new ProducerRecord<String, String>("transactions", name, transaction.toString());
+        return new ProducerRecord<String, String>("bank-transactions", name, transaction.toString());
     }
 }
