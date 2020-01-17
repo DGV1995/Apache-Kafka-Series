@@ -1,0 +1,10 @@
+version: '2.1'
+services:
+  kafka:
+    image: landoop/fast-data-dev:cp3.3.0
+    environment:
+      ADV_HOST: 127.0.0.1
+    ports:
+      - 2181:2181   # Zookeeper
+      - 9092:9092   # Broker
+      - 9581-9585:9581-9585
